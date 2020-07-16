@@ -1,12 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import Hello from './components/Hello';
+import Counter from './components/Counter';
 
 function App() {
   return (
-    <div>
-      ㄱㄴㄷㄹ
-    </div>
+    <>
+      <Counter></Counter>
+    </>
   );
 }
 
