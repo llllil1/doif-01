@@ -4,7 +4,7 @@ function Counter() {
   const [number, setNumber] = useState(0);
 
   const f1 = (a) => {
-    setNumber(number + a);
+    setNumber(() => number + 1);
   };
   const f2 = () => {
     setNumber(number - 1);
